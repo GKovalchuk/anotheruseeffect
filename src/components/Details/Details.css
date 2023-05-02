@@ -1,0 +1,23 @@
+.details {
+	margin: 5%;
+
+	height: 100%;
+
+	display: grid;
+	grid-template-rows: 45% 15% 10% 10% 10%;
+}
+
+.details__img img {
+	height: 100%;
+}
+
+.details__text {
+	display: flex;
+	align-items: center;
+
+	font-size: 2rem;
+}
+
+.details__text-name {
+	font-size: 2.4rem;
+}

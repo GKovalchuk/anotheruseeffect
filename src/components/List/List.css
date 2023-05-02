@@ -1,0 +1,38 @@
+.nav__list {
+	margin: 0 0 0 7%;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav__item {
+	margin: 0.5rem 0;
+	padding: 0.3rem 1rem;
+
+	border: none;
+	border-radius: 1.2rem;
+
+	background-color: var(--app__button-background);
+}
+
+.nav__item button {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	height: 100%;
+	width: 100%;
+
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+	text-align: left;
+	white-space: nowrap;
+
+	background: none;
+	text-decoration: none;
+	border: none;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	cursor: pointer;
+}
